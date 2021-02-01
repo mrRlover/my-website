@@ -1,0 +1,17 @@
+---
+enable: true
+topTitle: My Skills
+content: >
+  ## Why hire me for your next project?
+
+  Grow your business by spotting key trends through data Visualisation. 
+
+image: images/skill/skill_image.jpg
+
+skill:
+  - title: R
+    percent: 89
+  - title: Data Visualisation
+    percent: 88
+  - title: Reporting
+    percent: 85

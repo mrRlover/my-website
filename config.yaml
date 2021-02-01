@@ -1,0 +1,72 @@
+baseURL: http://example.org/
+languageCode: en-us
+paginate: 6
+theme: portio-hugo
+title: Mwangele Kaluba
+menu:
+  main:
+    - name: Home
+      url: '#home'
+      weight: 1
+    - name: About
+      url: '#about'
+      weight: 2
+    - name: Service
+      url: '#service'
+      weight: 3
+    - name: Work
+      url: '#portfolio'
+      weight: 4
+    - name: Resume
+      url: '#resume'
+      weight: 5
+    - name: Blog
+      url: '#blog'
+      weight: 6
+    - name: Contact
+      url: '#contact'
+      weight: 7
+  sitemap:
+    - name: About me
+      url: about
+      weight: 1
+    - name: Frequently Ask Question
+      url: '#'
+      weight: 2
+    - name: Privacy & Policy
+      url: '#'
+      weight: 3
+    - name: Latest Article
+      url: '#'
+      weight: 4
+params:
+  address:
+#    address: House No. 008, Silverest, NYK.
+    email: mwangelekaluba@outlook.com
+#    openingHours: Open from 10am to 6pm (close at 5pm Sundays)
+    phone: +(27) 79 830 7400
+  blogPageURL: blog
+  contactLink: contact
+  copyright: All right reserved copyright © Mwangele Kaluba 2021
+  footerLogo: images/contact/widget-logo.png
+  formspreeURL: YOUR FORMSPREE URL
+  googleAnalytics: YOUR GOOGLE ANALYTICS CODE
+  logo: images/site-navigation/logo.png
+  map:
+    APIkey: YOUR GOOGLE MAP API
+    latitude: '23.7783741'
+    longitude: '90.3746808'
+    pinImage: images/pin.png
+  social:
+    - icon: fa-github-square
+      url: https://www.github.com/mrrlover
+      weight: 1
+    - icon: fa-linkedin-square
+      url: https://www.linkedin.com/mwangele-kaluba-126955a6
+      weight: 2
+    - icon: fa-stack-overflow
+      url: https://www.stackoverflow.com/users/9778946/mr-rlover
+      weight: 3
+    - icon: fa-twitter-square
+      url: https://twitter.com/tha__godfather
+      weight: 4
